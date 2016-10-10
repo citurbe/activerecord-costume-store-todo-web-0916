@@ -20,12 +20,12 @@ end
 
 def get_opening_time
   d = Date.today
-  Time.new(d.year, d.month, d.day, 9, 00)
+  Time.new(2000, 01, 01, 13, 00)
 end
 
 def get_closing_time
   d = Date.today
-  Time.new(d.year, d.month, d.day, 22, 00)
+  Time.new(2000, 01, 01, 02, 00)
 end
 
 def get_description
